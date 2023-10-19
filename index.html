@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title> My Portfolio</title>
+<body>
+
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#home">Caloy</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check" onclick="demo()"/>
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#about" >About</a></li>
+                <li><a href="#project" >Project</a></li>
+                <li><a href="#contact" >Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!------------------------------------------------------------- Home ------------------------------------------------------------->
+    <section id="home" class="section _home checkbox">
+        <div class="section__container">
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    I'm <span> John Carlo<br />a</span> Third Year <span>BSIT</span>
+                </h1>
+                <p class="description">
+                    Welcome to my portfolio! I'm John Carlo Ramos, a becoming skilled and
+                    creative web developer with a passion for creating beautiful,
+                    responsive, and user-friendly websites.
+                </p>
+                <div class="icons">
+                    <div class="wrapper">
+                        <a href="https://web.facebook.com/bosscaloy0333" target="blank">
+                            <div class="icon facebook">
+                                <span class="tooltip">
+                                    Facebook
+                                </span>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                            </div>
+                        </a>
+
+                        <a href="https://www.instagram.com/senpaijc/" target="blank">
+                            <div class="icon instagram">
+                                <span class="tooltip">Instagram</span>
+                                <span><i class="fab fa-instagram"></i></span>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/MANGCALOY">
+                            <div class="icon github">
+                                <span class="tooltip">Github</span>
+                                <span><i class="fab fa-github"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="assets/profile.jpg" alt="profile" />
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------------------------- About ------------------------------------------------------------->
+
+    <section id="about" class="section">
+        <div class="aboutcontent">
+            <div class="imageone">
+                <img src="assets/caloy.jpg" alt="profile" />
+            </div>
+            <div class="aboutSection__container">
+                <h1 class="aboutTitle">About Me</h1>
+                <h2 class="infoAbout">Third Year BSIT & Hope to became a Full stuck</h2>
+                <h2 class="span">Web Developer</h2>
+                <p class="infoDesc">
+                    Take a look at all the technology surrounding you. If the inventors of each hadn’t tried one more
+                    time, where would we be? It’s certain that your dreams will dissolve if you give up. However,
+                    there’s always hope and possibility if you keep trying.
+                </p>
+                <div class="personalInfo">
+                    <div><span class="info">Name:</span><span> <br>John Carlo Ramos</span></div>
+                    <div><span class="info">Age:</span><span><br> 21</span></div>
+                    <div><span class="info">Course:</span><span><br> Bachelor of Science in Information
+                            Technology</span></div>
+                    <div><span class="info">College School:</span><span><br>Lyceum North-Western University</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!------------------------------------------------------------- Project ------------------------------------------------------------->
+
+
+<section id="project">
+    <div class="projepage" id="bgproject">
+        <div id="projects">
+            <h1>PROJECTS</h1>
+            <div class="project-box">
+                <a href="https://www.facebook.com/" target="_blank">
+                <h2>Facebook</h2>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                <img src="assets/fblogo.png" alt="Project 1">
+                </a>
+            </div>
+            <div class="project-box">
+                <a href="https://www.instagram.com/" target="_blank">
+                <h2>Instagram</h2>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                <img src="assets/instalogo.png" alt="Project 2">
+                </a>
+
+            </div>
+            <div class="project-box">
+                <a href="https://github.com/" target="_blank">
+                <h2>Github</h2>
+                </a>
+                <a href="https://github.com/" target="_blank">
+                <img src="assets/githublogo.png" alt="Project 3">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------------------- Contact ------------------------------------------------------------->
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contactcontent">
+                <h1>Contact Me</h1>
+                <div class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+
+                    <button type="submit">Send</button>
+                </div>
+
+                <div class="contact-info">
+                    <p>Basic Info:</p>
+                    <p><span class="info">Phone:</span> 0963-999-0866</p>
+                    <p><span class="info">Address:</span> Lingayen, Pangasinan</p>
+                    <p><span class="info">Email:</span> ramos.caloyjohn@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <footer>
+            <div class="foottext">
+              <span>Created By <a href="https://github.com/MANGCALOY">MANGCALOY</a> | &#169; 2023 All Rights Reserved</span>
+            </div>
+          </footer>
+</body>
+
+</html>
